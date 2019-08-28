@@ -1,0 +1,281 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"Jumper": {
+			"type": "script",
+			"path": "script/entities/Jumper.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"Ground": {
+			"type": "script",
+			"path": "script/entities/ground/Ground.js",
+			"global": true
+		},
+		"GroundBlock": {
+			"type": "script",
+			"path": "script/entities/ground/GroundBlock.js",
+			"global": true
+		},
+		"Enemy": {
+			"type": "script",
+			"path": "script/entities/enemy/Enemy.js",
+			"global": true
+		},
+		"EnemyManager": {
+			"type": "script",
+			"path": "script/entities/enemy/EnemyManager.js",
+			"global": true
+		},
+		"JumpButton": {
+			"type": "script",
+			"path": "script/entities/button/JumpButton.js",
+			"global": true
+		},
+		"LeftMan": {
+			"type": "script",
+			"path": "script/entities/LeftMan.js",
+			"global": true
+		},
+		"jumper": {
+			"type": "image",
+			"width": 448,
+			"height": 192,
+			"path": "image/jumper.png"
+		},
+		"alarm": {
+			"type": "audio",
+			"path": "audio/alarm",
+			"systemId": "sound",
+			"duration": 3860
+		},
+		"hit": {
+			"type": "audio",
+			"path": "audio/hit",
+			"systemId": "sound",
+			"duration": 170
+		},
+		"jump": {
+			"type": "audio",
+			"path": "audio/jump",
+			"systemId": "sound",
+			"duration": 400
+		},
+		"RoundTimer": {
+			"type": "script",
+			"path": "script/entities/RoundTimer.js",
+			"global": true
+		},
+		"leftman": {
+			"type": "audio",
+			"path": "audio/leftman",
+			"systemId": "sound",
+			"duration": 430
+		},
+		"JumperManager": {
+			"type": "script",
+			"path": "script/entities/JumperManager.js",
+			"global": true
+		},
+		"Player": {
+			"type": "script",
+			"path": "script/entities/player/Player.js",
+			"global": true
+		},
+		"PlayerManager": {
+			"type": "script",
+			"path": "script/entities/player/PlayerManager.js",
+			"global": true
+		},
+		"TitleScene": {
+			"type": "script",
+			"path": "script/scenes/TitleScene.js",
+			"global": true
+		},
+		"ground": {
+			"type": "image",
+			"width": 192,
+			"height": 64,
+			"path": "image/ground.png"
+		},
+		"GameScene": {
+			"type": "script",
+			"path": "script/scenes/GameScene.js",
+			"global": true
+		},
+		"SceneManager": {
+			"type": "script",
+			"path": "script/scenes/SceneManager.js",
+			"global": true
+		},
+		"ManagedScene": {
+			"type": "script",
+			"path": "script/scenes/ManagedScene.js",
+			"global": true
+		},
+		"CloseButton": {
+			"type": "script",
+			"path": "script/entities/button/CloseButton.js",
+			"global": true
+		},
+		"JoinButton": {
+			"type": "script",
+			"path": "script/entities/button/JoinButton.js",
+			"global": true
+		},
+		"rule1": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule1.png"
+		},
+		"rule2": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule2.png"
+		},
+		"rule3": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule3.png"
+		},
+		"rule4": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule4.png"
+		},
+		"finish": {
+			"type": "audio",
+			"path": "audio/finish",
+			"systemId": "sound",
+			"duration": 1997
+		},
+		"Teacher": {
+			"type": "script",
+			"path": "script/entities/Teacher.js",
+			"global": true
+		},
+		"Background": {
+			"type": "script",
+			"path": "script/entities/Background.js",
+			"global": true
+		},
+		"enemy": {
+			"type": "image",
+			"width": 96,
+			"height": 48,
+			"path": "image/enemy.png"
+		},
+		"left": {
+			"type": "image",
+			"width": 48,
+			"height": 120,
+			"path": "image/left.png"
+		},
+		"rule5": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule5.png"
+		},
+		"rule6": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule6.png"
+		},
+		"rule7": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule7.png"
+		},
+		"AIPlayerFactory": {
+			"type": "script",
+			"path": "script/entities/player/AIPlayerFactory.js",
+			"global": true
+		},
+		"UI": {
+			"type": "image",
+			"width": 192,
+			"height": 192,
+			"path": "image/UI.png",
+			"global": true
+		},
+		"yo": {
+			"type": "image",
+			"width": 96,
+			"height": 48,
+			"path": "image/yo.png"
+		},
+		"GameState": {
+			"type": "script",
+			"path": "script/states/GameState.js",
+			"global": true
+		},
+		"PlayerState": {
+			"type": "script",
+			"path": "script/states/PlayerState.js",
+			"global": true
+		},
+		"YoBallon": {
+			"type": "script",
+			"path": "script/entities/YoBallon.js",
+			"global": true
+		},
+		"CooldownBar": {
+			"type": "script",
+			"path": "script/entities/button/CooldownBar.js",
+			"global": true
+		},
+		"YoButton": {
+			"type": "script",
+			"path": "script/entities/button/YoButton.js",
+			"global": true
+		},
+		"RankTable": {
+			"type": "script",
+			"path": "script/entities/RankTable.js",
+			"global": true
+		},
+		"ScoreBoard": {
+			"type": "script",
+			"path": "script/entities/ScoreBoard.js",
+			"global": true
+		},
+		"rule8": {
+			"type": "image",
+			"width": 480,
+			"height": 270,
+			"path": "image/rule8.png"
+		},
+		"Flash": {
+			"type": "script",
+			"path": "script/Flash.js",
+			"global": true
+		},
+		"ResultBoard": {
+			"type": "script",
+			"path": "script/entities/ResultBoard.js",
+			"global": true
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"multi"
+			]
+		}
+	}
+}
