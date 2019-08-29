@@ -118,8 +118,8 @@ export class GameScene extends ManagedScene {
     }
 
     initialize() {
-        this.rankTable.initialize(JumperManager.MAXIMUM_JUMPER);
-        this.scoreBoard.initialize(JumperManager.MAXIMUM_JUMPER);
+        this.rankTable.initialize(JumperManager.MAXIMUM_JUMPER + 1);
+        this.scoreBoard.initialize(JumperManager.MAXIMUM_JUMPER + 1);
         this.scoreBoard.x = g.game.width - this.scoreBoard.width;
         this.resultBoard.initialize();
         this.resultBoard.x = (g.game.width / 2) - (this.resultBoard.width / 2);

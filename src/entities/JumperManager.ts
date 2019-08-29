@@ -7,7 +7,7 @@ import {PlayerManager} from "./player/PlayerManager";
 import {YoBallon} from "./YoBallon";
 
 export class JumperManager {
-    static MAXIMUM_JUMPER = 31;
+    static MAXIMUM_JUMPER = 30;
 
     jumpers: Jumper[] = [];
     playerManager: PlayerManager;
