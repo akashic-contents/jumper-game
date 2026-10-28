@@ -29,6 +29,10 @@
     "type": "git",
     "url": "https://github.com/akashic-contents/jumper-game.git"
   },
+  "allowScripts": {
+    "ejs@2.7.4": false,
+    "core-js@2.6.12": false
+  },
   "devEngines": {
     "packageManager": {
       "name": "npm",
